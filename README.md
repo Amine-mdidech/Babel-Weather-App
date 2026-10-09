@@ -5,3 +5,7 @@ WeatherApp is a small iOS weather application built with SwiftUI that shows live
 The project follows the MVVM architecture: Views only display data, ViewModels handle the screen logic, and a `WeatherService` behind a protocol fetches the data through a singleton `APIClient` and converts the API's raw JSON (DTOs) into the app's own models. This separation keeps the code easy to read and fully testable, and the ViewModels are covered by XCTest unit tests using a mock service, so they run instantly and without an internet connection. 
 
 The app uses no third-party dependencies, only Apple's native frameworks.
+
+# App Diagram
+
+<img width="407" height="599" alt="Screenshot 2026-10-09 at 17 21 00" src="https://github.com/user-attachments/assets/52ae7a34-cd36-4df9-8634-7a3ed625e839" />
