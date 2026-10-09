@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum OpenWeatherEndPoints {
+enum OpenWeatherAPIEndPoints {
     case currentWeather(WeatherLocation)
     case forecast(WeatherLocation)
     
